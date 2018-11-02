@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.labels {
+    padding: 10px;
+}
+
+.labels > label {
+    width: 180px;
+    text-align: right;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.labels > input {
+    width: 50px;
+}
+
+#status {
+    border-style: solid;
+    width: 320px;
+    padding: 5px;
+    align-content: center;
+    margin: auto;
+}
+
+#bt-start {
+    margin: 20px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+#minesweeper td {
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+td>img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.mine {
+    border-color: red;
+}

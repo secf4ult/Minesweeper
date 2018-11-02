@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+
+    <body class="flex-container" oncontextmenu="return false">
+        <h1>Minesweeper</h1>
+
+        <div>
+            <div class="labels">
+                <label for="input_row_num">Number of rows: </label>
+                <input id="input_row_num" type="number" value="10">
+            </div>
+            <div class="labels">
+                <label for="input_col_num">Number of columns: </label>
+                <input id="input_col_num" type="number" value="10">
+            </div>
+            <div class="labels">
+                <label for="input_mine_num">Number of mines: </label>
+                <input id="input_mine_num" type="number" value="10">
+            </div>
+        </div>
+
+        <div>
+            <p id="status"></p>
+            <button id="bt-start">Start</button>
+            <table id="minesweeper">
+            </table>
+        </div>
+
+        <script src="scripts/minesweeper.js" defer></script>
+    </body>
+</html>
